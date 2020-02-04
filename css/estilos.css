@@ -32,11 +32,54 @@
     transform-origin: 412px 37px;
 }
 
+.pajaro1 {
+    position: relative;
+    top: -390px;
+    left: 90%;
+    background: url(../img/pajaro.gif);
+    width: 30px;
+    height: 27px;
+    animation: pajaro1 linear 10s infinite;
+    transform: scale(.8);
+}
+
+.pajaro2 {
+    position: relative;
+    top: -380px;
+    left: -40%;
+    background: url(../img/pajaro.gif);
+    width: 30px;
+    height: 27px;
+    animation: pajaro2 linear 17s   infinite;
+}
+
 @keyframes movimientoLuz {
     from {
         transform: rotate(0);    
     }
     to {
         transform: rotateY(190deg);
+    }
+}
+
+@keyframes pajaro1 {
+    from {
+        left: 100%;
+        top: -390px;
+    }
+    to {
+        left: -50%;
+        top: -400px;
+    }
+}
+
+@keyframes pajaro2 {
+    from {
+        left: 150%;
+        transform: scale(1);
+    }
+    to {
+        left: -190%;
+        transform: scale(1.4);
     }
 }
