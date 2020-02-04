@@ -120,3 +120,7 @@
         left: 120%;
     }
 }
+
+.fondo:hover {
+    filter: grayscale(100%);
+}
