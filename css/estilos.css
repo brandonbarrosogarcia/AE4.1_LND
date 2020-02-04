@@ -40,18 +40,18 @@
     background: url(../img/pajaro.gif);
     width: 30px;
     height: 27px;
-    animation: pajaro1 linear 10s infinite;
-    transform: scale(.8);
+    animation: pajaro1 linear 15s infinite;
+    transform: scale(.7);
 }
 
 .pajaro2 {
     position: relative;
-    top: -430px;
+    top: -450px;
     left: -40%;
     background: url(../img/pajaro.gif);
     width: 30px;
     height: 27px;
-    animation: pajaro2 linear 17s 1s  infinite;
+    animation: pajaro2 linear 20s 6s  infinite;
 }
 
 .nube {
@@ -86,9 +86,11 @@
 @keyframes pajaro1 {
     from {
         left: 100%;
+        top: -430px;
     }
     to {
         left: -50%;
+        top: -460px;
     }
 }
 
@@ -96,10 +98,12 @@
     from {
         left: 150%;
         transform: scale(1);
+        top: -450px;
     }
     to {
         left: -100%;
-        transform: scale(1.4);
+        transform: scale(1.3);
+        top: -430px;
     }
 }
 
