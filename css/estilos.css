@@ -8,7 +8,7 @@
 
 .fondo {
     margin: 0 auto;
-    background: url(/img/background.png) no-repeat;
+    background: url(../img/background.png) no-repeat;
     width: 500px;
     height: 400px;
     overflow: hidden;
@@ -17,7 +17,7 @@
 .faro {
     position: relative;
     left: 62%;
-    background: url(/img/faro.png) no-repeat;
+    background: url(../img/faro.png) no-repeat;
     width: 190px;
     height: 340px;
 }
@@ -25,7 +25,7 @@
 .luzFaro {
     position: relative;
     top: -68%;
-    background: url(/img/light.png) no-repeat;
+    background: url(../img/light.png) no-repeat;
     width: 415px;
     height: 91px;
     animation: movimientoLuz linear 4s alternate infinite;
