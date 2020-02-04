@@ -53,6 +53,16 @@
     animation: pajaro2 linear 17s   infinite;
 }
 
+.nube {
+    position: relative;
+    top: -360px;
+    background: url(../img/nube.png);
+    width: 99px;
+    height: 56px;
+    animation: movimientoNube linear 25s infinite;
+}
+
+
 @keyframes movimientoLuz {
     from {
         transform: rotate(0);    
@@ -81,5 +91,14 @@
     to {
         left: -190%;
         transform: scale(1.4);
+    }
+}
+
+@keyframes movimientoNube {
+    from {
+        left: -100px;
+    }
+    to {
+        left: 100%;
     }
 }
